@@ -12,7 +12,7 @@ const About = () => {
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2 xl:flex-row lg:gap-0 justify-between">
                             <p className="text-zinc-100 text-base md:text-lg">Bachelor of Science in Information and Communication Technology</p>
-                            <p className="text-zinc-100 text-base md:text-lg">Silpakorn University | 2019 - 2022</p>
+                            <p className="text-zinc-100 text-base md:text-lg">Silpakorn University | 2017 - 2022</p>
                         </div>
                         <div>
                             <p className="text-zinc-300 text-base md:text-lg">Web Development and Interactive Media</p>
