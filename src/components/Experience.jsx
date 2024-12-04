@@ -11,9 +11,9 @@ const Experience = () => {
                           <p className="text-white">April-July</p>
                         </div>
                         <div className="flex flex-col justify-center py-4 gap-2 md:px-8">
-                          <p className="text-2xl text-white md:text-4xl">Front End Developer</p>
-                          <p className="text-zinc-100"> Duck Lab Co.,Ltd. (Internship)</p>
-                          <p className="text-zinc-300">Developed and implemented web applications from design requirements, Optimized pages for Responsive Website, utilizing responsive frameworks</p>
+                          <p className="text-xl text-white md:text-2xl">Front End Developer</p>
+                          <p className="text-zinc-100 text-base"> Duck Lab Co.,Ltd. (Internship)</p>
+                          <p className="text-zinc-300 text-base">Developed and implemented web applications from design requirements, Optimized pages for Responsive Website, utilizing responsive frameworks</p>
                         </div>
                     </div>
                 </div>
