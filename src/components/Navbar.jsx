@@ -34,7 +34,6 @@ const Navbar = ({ navOpen }) => {
                     }
                 }
             });
-            console.log(sectionRefs);
         };
 
         window.addEventListener('scroll', handleScroll);
