@@ -21,7 +21,7 @@ const Navbar = ({ navOpen }) => {
             sectionRefs.current.forEach((section, index) => {
                 if (!section) return;
                 const rect = section.getBoundingClientRect();
-                if (rect.top <= window.innerHeight / 4 && rect.bottom >= window.innerHeight / 4) {
+                if (rect.top <= window.innerHeight / 2.8 && rect.bottom >= window.innerHeight / 4) {
                     const link = document.querySelectorAll('.nav-link')[index];
                     if (link && link !== lastActiveLink.current) {
                         lastActiveLink.current?.classList.remove('active');
