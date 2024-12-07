@@ -28,7 +28,7 @@ const ProjectCard = ({ imgSrc, title, desc, tech, tags, projectLink, classes }) 
 
                 <div className="flex flex-1 gap-2 justify-end">
                  {projectLink.map((link, key) => (
-                     <div key={key} className="w-10 h-8 rounded-lg grid place-items-center bg-sky-400 text-zinc-950">
+                     <div key={key} className="w-10 h-8 rounded-lg grid place-items-center bg-cyan-400 text-zinc-950">
                          <a href={link.link} key={key} target="_blank" className="cursor-pointer">
                              <img src={link.icon} alt={''} width={20} height={20} />
                          </a>

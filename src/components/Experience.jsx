@@ -2,8 +2,8 @@ const Experience = () => {
     return (
         <section id="experience" className="section">
             <div className="container">
-                <h2 className="headsection">Experience</h2>
-                <h2 className="subtitle">History the Work</h2>
+                <h2 className="headsection reveal-up">Experience</h2>
+                <h2 className="subtitle reveal-up">History the Work</h2>
                 <div className="bg-zinc-800/50 p-7 mt-5 rounded-2xl md:p-12 reveal-up">
                     <div className="grid auto-rows-auto md:grid-flow-col md:auto-cols-auto bg-zinc-600/25 p-5 rounded-xl h-full">
                         <div className="flex flex-col justify-center py-4 md:px-8 w-full border-b-4 md:border-r-4 md:border-b-0 border-zinc-400/20">

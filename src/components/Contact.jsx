@@ -54,10 +54,10 @@ const socialLinks = [
 const Contact = () => {
     return (
         <section id="contact" className="section">
-            <div className="container flex flex-col items-center justify-center reveal-up">
-                <h2 className="headsection-contact reveal-up">Contact</h2>
-                <h2 className="subtitle reveal-up">Lets work together</h2>
-                <div className="flex items-center gap-4 mt-3 reveal-up">
+            <div className="container flex flex-col items-center justify-center">
+                <h2 className="headsection-contact">Contact</h2>
+                <h2 className="subtitle">Lets work together</h2>
+                <div className="flex items-center gap-4 mt-3">
                     {socialLinks.map(({ href, icon }, key) => (
                         <a key={key} href={href} target="_blank" className="w-16 h-16 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80">
                             {icon}
@@ -66,14 +66,14 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col items-center justify-center w-full gap-4 mt-52 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-14 relative">
-                    <figure className="img-box w-44 h-44 rounded-full mt-5 absolute -top-40 reveal-up">
+                    <figure className="img-box w-44 h-44 rounded-full mt-5 absolute -top-40">
                         <img src="/images/avatar.jpg" width={40} height={40} alt="Prasert Saengkaew portrait" className="img-cover" />
                     </figure>
                     <div className="w-32 h-32 ring-2 ring-inset ring-zinc-50/10 rounded-full absolute -top-[8.5rem] mt-5 animate-ping"></div>
                     <span className="material-symbols-rounded text-6xl animate-pulse" aria-hidden="true">
                         web_traffic
                     </span>
-                    <h2 className="headsection reveal-up">Let's Work Together</h2>
+                    <h2 className="headsection">Let's Work Together</h2>
                     <a href="kengsert@gmail.com" className="mt-4">
                         <h2 className="btn btn-email animate-bounce">
                             <span className="material-symbols-rounded" aria-hidden="true">

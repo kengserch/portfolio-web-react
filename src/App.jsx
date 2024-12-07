@@ -22,10 +22,8 @@ export default function App() {
             gsap.to(element, {
                 scrollTrigger: {
                     trigger: element,
-                    start: '-200 bottom',
-                    end: 'bottom 90%',
                     scrub: true,
-                    //markers: true,
+                   // markers: true,
                 },
                 y: 0,
                 opacity: 1,
