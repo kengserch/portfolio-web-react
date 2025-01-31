@@ -29,7 +29,7 @@ const Hero = () => {
               <ButtonPrimary
               label="Download CV"
               icon="download"
-              href="https://shorturl.at/raRWa"
+              href="https://shorturl.at/OCJJN"
               target="_blank"
               />
                <ButtonPrimary
