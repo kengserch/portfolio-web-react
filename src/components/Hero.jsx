@@ -29,13 +29,13 @@ const Hero = () => {
               <ButtonPrimary
               label="Download CV"
               icon="download"
-              href="https://shorturl.at/OCJJN"
+              href="https://shorturl.at/PdiLK"
               target="_blank"
               />
                <ButtonPrimary
               label="Full Portfolio"
               icon="download"
-              href="https://shorturl.at/N79z3"
+              href="https://shorturl.at/c5N6N"
               target="_blank"
               />
 
