@@ -124,6 +124,19 @@ const projects = [
             },
         ],
     },
+    {
+        imgSrc: '/images/project-present-9.jpg',
+        title: 'Webboard Website',
+        desc: 'Practice project',
+        tech: ['/images/react.svg', '/images/tailwindcss.svg', '/images/nodejs.svg', '/images/expressjs.svg', '/images/postgresql.svg', '/images/docker.svg'],
+        tags: ['Design', 'Development', 'API'],
+        projectLink: [
+            {
+                link: 'https://github.com/kengserch/mini-social-web-react',
+                icon: '/images/github.svg',
+            },
+        ],
+    },
 ];
 
 const Project = () => {
