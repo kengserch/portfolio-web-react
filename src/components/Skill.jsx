@@ -52,9 +52,19 @@ const skillItem = [
     desc: 'Database'
   },
   {
+    imgSrc: '/images/postgresql.svg',
+    label: 'Postgresql',
+    desc: 'Database'
+  },
+  {
     imgSrc: '/images/mongodb.svg',
     label: 'MongoDB',
     desc: 'Database'
+  },
+  {
+    imgSrc: '/images/docker.svg',
+    label: 'Docker',
+    desc: 'Container Engine'
   },
   {
     imgSrc: '/images/figma.svg',
